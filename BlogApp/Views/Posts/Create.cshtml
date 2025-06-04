@@ -1,0 +1,48 @@
+@{
+    ViewData["Title"] = "Posts";
+}
+
+@model PostCreateViewModel
+
+<div class="row">
+    <div class="p-4 bg-white">
+        <h1>Post Oluşturma</h1>
+        <form action="Create" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="mb-3">
+                <label asp-for="title" class="form-label"></label>
+                <input asp-for="title" class="form-control">
+                <span asp-validation-for="title" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Description" class="form-label"></label>
+                <input asp-for="Description" class="form-control">
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Url" class="form-label"></label>
+                <input asp-for="Url" class="form-control">
+                <span asp-validation-for="Url" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Content" class="form-label"></label>
+                <textarea asp-for="Content" class="form-control"></textarea>
+                <span asp-validation-for="Content" class="text-danger"></span>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Oluştur</button>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tinymce/7.6.1/tinymce.min.js"
+        integrity="sha512-bib7srucEhHYYWglYvGY+EQb0JAAW0qSOXpkPTMgCgW8eLtswHA/K4TKyD4+FiXcRHcy8z7boYxk0HTACCTFMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    </script>
+    <script>
+        tinymce.init({
+            selector:'#Content'
+        });
+    </script>
+}

@@ -1,0 +1,35 @@
+@model List<Post>
+
+<div class="row">
+  <div class="col-12">
+     <h2>Post List</h2>
+     <a href="/posts/create" class="btn btn-primary">New Post</a>
+     <table class="table tabled-bordered mt-3">
+        <thead>
+             <tr>
+                <th style="width: 200px;">Image</th>
+                <th>Title</th>
+                <th>İsActive</th>
+                <th>UserId</th>
+                <th>User</th>
+                <th style="width: 125px;"></th>
+             </tr>
+        </thead>
+        <tbody>
+            @foreach(var post in Model){
+               <tr>
+                 <td><img style="width: 200px;" src="/img/@post.Image" alt=""></td>
+                 <td>@post.Title</td>
+                 <td>@post.IsActive</td>
+                 <td>@post.UserId</td>
+                 <td>@post.User.UserName</td>
+                 <td>
+                    <a href="/posts/edit/@post.PostID" class="btn btn-sm btn-primary">Edit</a>
+                    <a href="#" class="btn btn-sm btn-primary">Delete</a>
+                 </td>
+              </tr>
+            }
+        </tbody>
+     </table>
+  </div>
+</div>
