@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5AheklwaPuc=",
+  "dgSpecHash": "jygFSpxrdnI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\AlihanDursun\\Desktop\\asp.net_core\\BlogApp\\BlogApp\\BlogApp.csproj",
+  "projectFilePath": "C:\\Users\\AlihanDursun\\Desktop\\git_hub_güncellenecekler\\15\\BlogApp-.NET_Core_MVC-WebSite\\BlogApp\\BlogApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\AlihanDursun\\.nuget\\packages\\bootstrap\\5.3.5\\bootstrap.5.3.5.nupkg.sha512",
     "C:\\Users\\AlihanDursun\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

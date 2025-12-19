@@ -2866,11 +2866,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\AlihanDursun\\Desktop\\asp.net_core\\BlogApp\\BlogApp\\BlogApp.csproj",
+      "projectUniqueName": "C:\\Users\\AlihanDursun\\Desktop\\git_hub_güncellenecekler\\15\\BlogApp-.NET_Core_MVC-WebSite\\BlogApp\\BlogApp.csproj",
       "projectName": "BlogApp",
-      "projectPath": "C:\\Users\\AlihanDursun\\Desktop\\asp.net_core\\BlogApp\\BlogApp\\BlogApp.csproj",
+      "projectPath": "C:\\Users\\AlihanDursun\\Desktop\\git_hub_güncellenecekler\\15\\BlogApp-.NET_Core_MVC-WebSite\\BlogApp\\BlogApp.csproj",
       "packagesPath": "C:\\Users\\AlihanDursun\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\AlihanDursun\\Desktop\\asp.net_core\\BlogApp\\BlogApp\\obj\\",
+      "outputPath": "C:\\Users\\AlihanDursun\\Desktop\\git_hub_güncellenecekler\\15\\BlogApp-.NET_Core_MVC-WebSite\\BlogApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
